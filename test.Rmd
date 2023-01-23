@@ -1,14 +1,13 @@
 ---
 title: "My Presentation"
-knit: (function(input_file, encoding) {
-    out_dir <- 'docs';
-    rmarkdown::render(input_file,
-      encoding=encoding,
-      output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-author: "masa"
-date: '2023-01-23'
-output: ioslides_presentation
-
+#knit: (function(input_file, encoding) {
+#   out_dir <- 'docs';
+#    rmarkdown::render(input_file,
+#      encoding=encoding,
+#      output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+#author: "masa"
+#date: '2023-01-23'
+#output: ioslides_presentation
 ---
 
 ```{r setup, include=FALSE}
